@@ -1,0 +1,310 @@
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;500;600;700&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Work Sans', sans-serif;
+}
+nav{
+    /* background-color: brown; */
+    display: flex;
+    justify-content: space-between;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+span{
+    color: #FF42A5;
+}
+
+.logo{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-left: 30px;
+}
+.logo>h1{
+    padding-left: 5px;
+    font-size: 25px;
+    font-family: Work Sans;
+    font-weight: 700;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 30px;
+}
+.menu>p,button{
+    margin-right: 30px;
+    color: #3C354F;
+   text-align: center;
+   font-family: Work Sans;
+   font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+}
+.menu>button{
+    width: 190px;
+   height: 50px;
+   border: 0px;
+   border-radius: 8px;
+    background: rgba(11, 2, 35, 0.10);
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+
+#play{
+    color: #0B0223;
+text-align: center;
+font-family: Work Sans;
+font-size: 40px;
+font-style: normal;
+font-weight: 600;
+line-height: normal;
+text-transform: uppercase;
+}
+.header-text>h1{
+background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: center;
+font-family: Work Sans;
+font-size: 80px;
+font-style: normal;
+font-weight: 800;
+line-height: normal;
+text-transform: uppercase;
+}
+.features{
+    color: #534C64;
+    /* background-color: #8758F1; */
+    padding-left: 40px;
+text-align:left;
+font-family: Work Sans;
+font-size: 20px;
+font-style: normal;
+font-weight: 500;
+line-height: 36px;
+text-transform: lowercase;
+}
+#sign,#rogue{
+    color: white;
+    padding: 10px 15px;
+    font-weight: 500;
+    text-transform: uppercase;
+    border-radius: 48px;
+    border: 0px;
+    margin-top: 20px;
+    
+}
+#sign{
+    background: var(--Linear, linear-gradient(90deg, #FF42A5 13.13%, #FF42A5 87.94%));
+    margin-left: 30px;
+}
+#rogue{
+    background-color: #4EC5F7;
+}
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.btn{
+    
+    align-items: center;
+     width: 92%; 
+    
+}
+header{
+    background-image: url('images/Group 14.png');
+    background-repeat: no-repeat;
+
+}
+
+#games-text{
+    color: #0B0223;
+    text-align: center;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: uppercase;
+}
+#games-text>span{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-family: Work Sans;
+    font-size: 35px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: normal;
+}
+.games-card{
+    margin-top: 50px;
+}
+
+.games-card>p{
+    color: #534C64;  
+    text-align:center;
+    font-family: Work Sans;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 46px;
+    text-transform: lowercase;
+}
+.cards{
+    display: flex;
+    justify-content: space-evenly;
+    width: 90%;
+    margin: 0px auto;
+    margin-top: 30px;
+}
+.card-text{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+}
+#dark:hover{
+    filter: brightness(50%);
+}
+
+#play-text1{
+    color: #0B0223;
+    font-family: Work Sans;
+    font-size: 38px;
+    font-style: normal;
+    font-weight: 700;
+    padding-top: 20px;
+    text-align: right;
+}
+#play-text2{
+    color: #534C64;
+    font-family: Work Sans;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    text-align: right;
+    margin-top: 20px;
+}
+
+
+.img-container{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 40px;
+     padding-top: 40px;
+    
+}
+#img2{
+    position: relative;
+    top: -200px;
+    right: 80px;
+
+}
+.img-text{
+    padding-top: 90px;
+}
+
+.category{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 50px;
+}
+.last{
+    margin-left: 80px;
+
+}
+
+.categories{
+     width: 85%;
+    margin: 0px auto;
+    display: grid;
+    grid-template-columns: repeat(5,1fr);
+    justify-content: space-around;
+    gap: 10px;
+}
+
+.category:hover{
+    border-radius: 50px;
+    border: 1.5px solid var(--Linear, #FF42A5);
+    background: #FFF;
+    color: #FF42A5 ;
+}
+
+.footer-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    margin-top: 40px;
+}
+.footer{
+    background-color: #0B0223;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+}
+
+.about{
+    
+    text-align: center;
+    color: #FFF;
+    margin-top: 20px;
+    font-family: Work Sans;
+    font-size: 18px;
+    font-weight: 600;
+    display: grid;
+    grid-template-columns: repeat(6,1fr);
+    width: 70%;
+    margin: 0px auto;
+    margin-top: 50px;
+    
+}
+
+.icons{
+    margin: 0px auto;
+    margin-top: 50px;
+    display: flex;
+}
+.icons>button{
+    padding: 0px 20px;
+    border: 0px;
+    background-color: #0B0223;
+}
+.policy{
+    color: rgba(255, 255, 255, 0.60);
+    font-family: Work Sans;
+    font-size: 16px;
+    font-weight: 500;
+    margin-top: 60px;
+    display: flex;
+    justify-content: center;
+}
+.policy>p{
+    padding: 0px 20px;
+}
+.footer-text{
+    color: rgba(255, 255, 255, 0.60);
+text-align: center;
+font-family: Work Sans;
+font-size: 16px;
+margin-top: 30px;
+margin-bottom: 30px;
+font-weight: 500;
+
+}
+
